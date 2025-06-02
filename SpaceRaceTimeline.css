@@ -1,0 +1,119 @@
+body{
+    background-color:white;
+    
+    scrollbar-width: none;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    scrollbar-width: none;
+}
+.wrapper{
+    width: 100vw;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+.section{
+    width: 100vw;
+    height: 753px;
+    display: inline-block;
+    position: relative;
+}
+/*information above timeline*/
+.topul{
+    list-style: none;
+}
+.topul li{
+    display: block;
+    float: left;
+    position: relative; right: 25px; top: 70px;
+}
+/*information at timeline level*/
+.line{
+    display: block;
+    float: left;
+    font-size: 100px;
+    margin: 1px;
+    padding: 1px;
+}
+.inline{
+    position: relative; top: 100px;
+}
+/*information below timeline*/
+.bottomul{
+    list-style: none;
+}
+.bottomul li{
+    display: block;
+    float: left;
+    width: 370px;
+    font-size: 25px;
+    text-align: center;
+    position: relative; bottom: 50px;
+}
+/*first section*/
+.one{
+    width: 60vw;
+    background-color: blue;
+}
+.one .top{
+    font-size: 50px;
+    display: none;
+}
+/*second section*/
+.two{
+    width: 553vw;
+    background-image: url(Your\ paragraph\ text.png);
+    background-color: blue;
+    position: relative;
+}
+.two .toppp{
+    font-size: 50px;
+    display: none;
+}
+.two .topul{
+    font-size: 25px;
+    margin: 1px;
+    padding: 1px;
+}
+.two .topul li{
+    width: 425px;
+    font-size: 25px;
+    text-align: center;
+}
+li{
+    border-style: ridge;
+}
+
+/*Main Page*/
+.mainPageP{
+    display: block;
+    border-style: ridge;
+    padding: none;
+    margin: none;
+}
+.mainPageP2{
+    font-size: 50px;
+    position: relative; bottom: 250px;
+}
+.mainPageDiv{
+    text-align: center;
+}
+.mainPageBody{
+    background-color: white;
+    padding: none;
+    margin: none;
+}
+.mainPageInfographic{
+    height: 300px;
+    transform: rotate(5deg);
+}
+.mainPageUl{
+    list-style-type: none;
+    position: relative; bottom: 150px;
+}
+.mainPageLi{
+    display: block;
+    float: left;
+    width: 30vw;
+}
